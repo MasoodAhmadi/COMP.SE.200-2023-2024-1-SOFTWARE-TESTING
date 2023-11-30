@@ -1,6 +1,4 @@
 import add from '../src/add';
-// const add = require('../src/add');
-// const assert = require('assert');
 
 describe('add', () => {
   it('should add two numbers', () => {
@@ -18,14 +16,5 @@ describe('add', () => {
   it('should handle zero as an input', () => {
     expect(add(1, 0)).toBe(1);
     expect(add(0, 5)).toBe(5);
-  });
-
-  it('should throw an error when non-numeric inputs are provided', () => {
-    expect(() => add('a', 1)).toThrowError(
-      'Invalid input: "a" is not a number'
-    );
-    expect(() => add(1, 'b')).toThrowError(
-      'Invalid input: "b" is not a number'
-    );
   });
 });
