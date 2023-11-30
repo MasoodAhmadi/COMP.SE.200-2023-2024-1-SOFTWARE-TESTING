@@ -10,6 +10,7 @@
   "author": "Asraful",
   "license": "MIT",
   "dependencies": {
+    "@babel/preset-env": "^7.23.5",
     "coveralls": "^3.1.1",
     "jest": "^29.3.1",
     "ts-jest": "^29.0.3"
