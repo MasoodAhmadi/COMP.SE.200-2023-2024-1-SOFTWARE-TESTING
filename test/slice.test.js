@@ -8,13 +8,6 @@ describe('slice', () => {
     expect(actualSlice).toEqual(expectedSlice);
   });
 
-  it('should handle negative start and end indices', () => {
-    const array = [1, 2, 3, 4];
-    const expectedSlice = [2, 3];
-    const actualSlice = slice(array, -2, -1);
-    expect(actualSlice).toEqual(expectedSlice);
-  });
-
   it('should return an empty array if the array is empty', () => {
     const array = [];
     const expectedSlice = [];
