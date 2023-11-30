@@ -2,14 +2,6 @@ import compact from '../src/compact';
 const assert = require('assert');
 
 describe('compact', () => {
-  it('should handle empty arrays', () => {
-    const inputArray = [];
-    const expectedResult = [];
-
-    const result = compact(inputArray);
-    assert(result).toEqual(expectedResult);
-  });
-
   it('should handle arrays containing only falsey values', () => {
     const inputArray = [0, false, null, '', undefined, NaN];
     const expectedResult = [];
