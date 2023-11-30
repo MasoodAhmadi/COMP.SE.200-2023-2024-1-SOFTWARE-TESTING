@@ -1,4 +1,4 @@
-import add from '../src/add';
+const add = require('../src/add');
 
 const assert = require('assert');
 
