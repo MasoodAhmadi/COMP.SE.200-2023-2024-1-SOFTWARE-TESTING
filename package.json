@@ -7,7 +7,7 @@
     "test": "jest",
     "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info"
   },
-  "author": "Asraful",
+  "author": "Masood",
   "license": "MIT",
   "dependencies": {
     "@babel/preset-env": "^7.23.5",
