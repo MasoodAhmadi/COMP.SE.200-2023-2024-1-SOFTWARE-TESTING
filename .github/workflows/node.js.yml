@@ -9,8 +9,7 @@ on:
   pull_request:
     branches: ['main']
 env:
-  repo_token: MRmC3uQVFG4EgVTJExIvAm6OrFd7qr4vo
-
+  COVERALLS_REPO_TOKEN: MRmC3uQVFG4EgVTJExIvAm6OrFd7qr4vo
 jobs:
   build:
     runs-on: ubuntu-latest
