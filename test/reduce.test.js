@@ -1,8 +1,9 @@
 import reduce from '../src/reduce';
 
 describe('reduce', () => {
+  let numbers;
   it('should reduce an array to a single value', () => {
-    const numbers = [1, 2, 3, 4, 5];
+    numbers = [1, 2, 3, 4, 5];
     const sum = reduce(
       numbers,
       (accumulator, currentValue) => accumulator + currentValue,
@@ -23,7 +24,7 @@ describe('reduce', () => {
   });
 
   it('should use the first element of the array as the accumulator if no accumulator is provided', () => {
-    const numbers = [1, 2, 3, 4, 5];
+    numbers = [1, 2, 3, 4, 5];
     const product = reduce(
       numbers,
       (accumulator, currentValue) => accumulator * currentValue
@@ -41,8 +42,8 @@ describe('reduce', () => {
     expect(sumOfValues).toBe(6);
   });
 
-  it('should handle custom iteratee functions', () => {
-    const numbers = [1, 2, 3, 4, 5];
+  it('should handle custom iterate functions', () => {
+    numbers = [1, 2, 3, 4, 5];
     const squares = reduce(
       numbers,
       (accumulator, currentValue) => {
