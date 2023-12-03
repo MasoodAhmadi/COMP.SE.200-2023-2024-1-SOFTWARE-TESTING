@@ -12,29 +12,14 @@ Source code folder contains a separate license file that must **NOT** be removed
 Removing this license file directly violates terms and conditions of the software under testing.
 Individuals who remove or modify the license file will also carry the consequences.
 
-# E-commerce-app
+# COMP.SE.200-2023-2024-1-Software-Testing
 
 This is an e-commerce application that a user can order a product and buy stuffs.
 
-## Installation
+# Assignment - Part 2 - Executing the tests
 
-add .env file
+# Coverage Report
 
-- SECRETKEY = xxxxxxxxx;
-- DB_PASSWORD=xxxxxxxxx
-- DB_USERNAME=xxxxxxx
-- DB_DATABASE=xxxxxx
+[![Coverage Status](https://coveralls.io/repos/github/MasoodAhmadi/COMP.SE.200-2023-2024-1-SOFTWARE-TESTING/badge.svg?branch=main)](https://coveralls.io/github/MasoodAhmadi/COMP.SE.200-2023-2024-1-SOFTWARE-TESTING?branch=main)
 
-## client
-
-```bash
-npm install && npm start
-```
-
-## server
-
-```bash
-npm install && npm run dev
-```
-
-    "test": "nyc jest --verbose ./src/test --coverage && cat ./coverage/lcov.info | coveralls-next",
+https://coveralls.io/repos/github/MasoodAhmadi/COMP.SE.200-2023-2024-1-SOFTWARE-TESTING/badge.svg?branch=main(Coverage Status)!:https://coveralls.io/github/MasoodAhmadi/COMP.SE.200-2023-2024-1-SOFTWARE-TESTING?branch=main
